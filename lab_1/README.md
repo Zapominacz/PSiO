@@ -1,4 +1,6 @@
 # Lista zadań PSiO 1
+Wprowadzenie do środowiska Eclipse
+Termin: 09.10.18
 
 ## Cel
 * Zapoznać się ze środowiskiem Eclipse
@@ -27,12 +29,12 @@ Doskonale, właśnie został utworzony pierwszy program (i projekt).
 
 Etap pierwszego uruchomienia został zrealizowany, na sam koniec projekt eksportujemy (np. aby wysłać na swojego maila).
 
-8. Ponownie wybrać projekt PPM i wybrac opcje *Export* -> *Archive file*. Podać ścieżkę do utworzenia archiwum i nacisnąć *Finish*.
+8. Ponownie wybrać projekt PPM i wybrac opcje *Export* -> *General* -> *Archive file*. Podać ścieżkę do utworzenia archiwum i nacisnąć *Finish*.
 
 ## Zadanie 2 - Import projektu.
 Teraz należy pobrać projekt, na którym zostanie wykonane trzecie zadanie. Projekt można pobrać [TUTAJ](https://github.com/Zapominacz/PSiO/raw/master/lab_1/projekt.zip).
 
-Pobrany projekt należy zaimportować poprzez wybranie na pasku narzędziowym opcji *File* -> *Import* -> *Existing project into workspace* oraz wybrać ścieżkę pobranego projektu w formacie *.zip* .
+Pobrany projekt należy zaimportować poprzez wybranie na pasku narzędziowym opcji *File* -> *Import* -> *General* -> *Existing project into workspace* oraz wybrać ścieżkę pobranego projektu (Archive file) w formacie *.zip* .
 
 Doskonale, opanowany został import projektów.
 
