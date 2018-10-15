@@ -1,31 +1,12 @@
-# Lista zadań PSiO 2
-Klasy i metody
-Termin: 16.11.18
+# Lab 3
+#### Typy i konwersje
 
-## Cel
-* Zapoznanie z klasami, metodami
-* Zapoznanie z podstawowymi elementami biblioteki standardowej
-
-## Materiały
-* [Java Math](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html) - dokumentacja klasy Math zawierających narzędzia wspomagajace obliczenia.
-
-# Zadanie
-![Series expansions](https://github.com/Zapominacz/PSiO/raw/master/lab_2/series_expansion.png)
-
-* Utwórz nowy projekt
-* W pakiecie domyślnym należy utworzyć klasę `Lab02`, zawierajacą jedynie funkcję `main` - punkt startowy projektu.
-* W pakiecie `series` należy utworzyć trzy klasy, które reprezentują powyższe rozwinięcia wzorów w szeregi taylora.
-* Każda z klas zawiera przeciążone konstruktory, które umożliwiają podanie:
-1. **Argumentu aproksymowanej funkcji (x)**, **Liczby iteracji (n)**
-2. **Argumentu aproksymowanej funkcji (x)**
-3. Żadnych argumentów - Konstruktor domyślny (bezargumentowy), który zawiera wartości domyślne (np. x = 2, n = 100).
-* Każda z klas zawiera dwie metody: 
-1. `compute` - wyliczającą wartość danego szeregu dla danych argumentów.
-2. `verbose`, które realizuje to przy pomocy pomocnicznych funkcji, zdefiniowanych w osobnej klasie jako metody statyczne, dzięki którym łatwiejsze jest odczytanie pierwotnego wzoru szeregu (np. `power(x, k)`, `factorial(k)`) - możesz w danych metodach statycznych bezpośrednio odwoływać się do biblioteki `Math` w Javie.
-
-* W metodzie `main` zademonstruj działanie przynajmniej jednego z szeregów (wynik w konsoli).
-* Przygotuj dla prowadzącego wady i zalety obu podejść (`verbose` i `compute`).
-
-Dla chętnych (nieobowiązkowe):
-* Utworzyć interfejs dla klas reprezentujących szeregi zawierąjacy deklaracje metod `verbose` i `compute`. Klasy szeregów wtedy powinny implementowac ten interfejs.
-* *Czy jesteś w stanie napisać funkcję `sum(k, n, <funkcja obbliczająca dany element szeregu>)` (podpowiedź - należy zastosować dziedziczenie).
+1. Napisać funkcje, która z podanego łańcucha znaków wyświetla znaki **ASCII** w formacie dziesiętnym oraz heksadecymalnym (można użyć biblioteki `Java Math`)
+2. Napisać funkcję, która łączy podany String, liczbę zmiennoprzecinkową i dowolny inny obiekt (klasa `Object`) oraz wyświetla je jako jeden łańcuch znakowy na ekranie. W jaki sposób ustawić dokładność wyświetlanej w podanym łańcuchu liczby do dwóch miejsc po przecinku?
+3. Utwórz klasę `Dog`, która zawiera w sobie nazwę psa. Przekaż instancję klasy do funkcji napisanej w poprzednim zadaniu. Co jest wyświetlane? Następnie napisz metodę ```public String toString()``` wewnątrz klasy `Dog`, która zwraca opis instancji klasy (np. nazwę psa). Ponownie uruchom funkcję z poprzedniego zadania z obiektem danej klasy jako argumentem. Co się zmieniło?
+4. Zaprezentuj:
+* Wykorzystanie operatora bitowego
+* Wykorzystanie operatora przypisania, innego niż `=`
+* Przekroczenie zakresu liczby całkowitej
+5. Napisz funkcję, która z podanej liczby całkowitoliczbowej zwraca wartość znajdującą się na n-tym bicie.
+6. Napisz funkcję, która zwraca prawdę (true), gdy jako argument (typ Object) zostanie podana wartość zmiennoprzecinkowa.
