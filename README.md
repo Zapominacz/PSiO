@@ -7,4 +7,4 @@ Materiały do zajęć PSiO
 mikolaj.stys@pwr.edu.pl
 
 #### Konsultacje
-Środa, godzina 7:30-8:30
+Środa, godzina 7:30-8:30 (sala 445 B-4)
